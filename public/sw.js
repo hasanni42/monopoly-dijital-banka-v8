@@ -1,0 +1,1 @@
+const CACHE='monopoly-v8-static-1';self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(['/','/manifest.webmanifest']))));self.addEventListener('fetch',e=>{if(e.request.method!=='GET'||e.request.url.includes('/socket.io/'))return;e.respondWith(fetch(e.request).catch(()=>caches.match(e.request)))});
