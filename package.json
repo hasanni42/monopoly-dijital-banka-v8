@@ -1,0 +1,1 @@
+{"name":"monopoly-dijital-banka-v8","version":"8.0.0","type":"module","engines":{"node":">=22.13.0"},"scripts":{"start":"node server.js","test":"node --test"},"dependencies":{"express":"^4.21.2","socket.io":"^4.8.1"},"devDependencies":{"socket.io-client":"^4.8.1"}}
